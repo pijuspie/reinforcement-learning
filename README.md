@@ -19,6 +19,10 @@ python -m environments.cartpole
 ```
 Replace *cartpole* with the name of the environment that you want.
 
+## Models
+
+Finished models are in [models folder](models/).
+
 ## License
 
 Copyright © 2024, pijuspie
