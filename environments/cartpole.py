@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
 import gym
-from utils import train, test
+from utils.utils import train, test
 
 learning_rate = 0.01
-num_episodes = 1000
+num_episodes = 1500
 num_tests = 100
 log_frequency = 100
 epsilon = 1 # randomness

@@ -6,6 +6,19 @@ Successfully Solved Environments:
 * CartPole-v1
 * More coming soon...
 
+## Usage
+
+For the first time:
+```
+conda env create -f environment.yml
+```
+Then always:
+```
+conda activate reinforcement-learning
+python -m environments.cartpole
+```
+Replace *cartpole* with the name of the environment that you want.
+
 ## License
 
 Copyright © 2024, pijuspie
