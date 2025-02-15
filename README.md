@@ -1,28 +1,16 @@
-# Reinforcement learning
-
-This project implements Deep Q-Learning agents using PyTorch to solve various reinforcement learning environments from the OpenAI Gym.
-
-Successfully Solved Environments:
-* CartPole-v1
-* More coming soon...
-
-## Usage
-
-For the first time:
+Create a new environment:
 ```
-conda env create -f environment.yml
+python -m venv rl-env
 ```
-Then always:
+
+Activate/deactivate the environtment:
 ```
-conda activate reinforcement-learning
-python -m environments.cartpole
+rl-env\Scripts\activate
+deactivate
 ```
-Replace *cartpole* with the name of the environment that you want.
 
-## Models
-
-Finished models are in [models folder](models/).
-
-## License
-
-Copyright © 2024, pijuspie
+Install dependencies and update requirement list:
+```
+pip install -r requirements.txt
+pip freeze > requirements.txt
+```
